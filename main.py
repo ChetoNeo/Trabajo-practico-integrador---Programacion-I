@@ -6,7 +6,6 @@ def cargar_desde_csv(nombre_archivo):
         with open(nombre_archivo, mode='r', encoding='utf-8') as archivo:
             lector = csv.DictReader(archivo)
             for fila in lector:
-                # Conversión de tipos y limpieza de datos obligatoria para estadísticas
                 pais = {
                     'nombre': fila['nombre'].strip(),
                     'poblacion': int(fila['poblacion']),
