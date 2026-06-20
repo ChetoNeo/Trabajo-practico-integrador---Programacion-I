@@ -4,6 +4,7 @@ Este proyecto es una aplicación de consola en Python diseñada para gestionar, 
 
 ## Integrantes del Grupo
 * **Integrante:** [Suarez Pablo Santiago] - [47634903]
+* **Link para video defensa:** []
 
 ## Instrucciones de Uso
 1. Asegúrese de tener el archivo `datos_paises.csv` en la misma carpeta que `main.py`.
